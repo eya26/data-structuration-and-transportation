@@ -24,8 +24,7 @@ for item in data:
         is_teacher=item['is_teacher']
     )
     users.append(user)
-    
-    # Iterate over the persons list and display the data
+  
 for user in users:
     print("ID:", user.id)
     print("Name:", user.name)
@@ -33,5 +32,5 @@ for user in users:
     print("School:", user.school)
     print("Age:", user.age)
     print("Is Teacher:", user.is_teacher)
-    print("---------------------")
+
 
